@@ -30,7 +30,7 @@ aws iam list-users >> "$reportFile"
 echo -e "\n" >> "$reportFile"
 
 # Set permissions on the report file (optional)
-chmod 600 "$reportFile"
+#chmod 600 "$reportFile"
 
 # Setup cronjob for execution every night at 12pm
 # Open crontab configuration
