@@ -8,7 +8,7 @@
 # AWS S3
 # AWS IAM USER
 #
-#set -xeo
+set -xeo
 # Report file
 reportFile="resourceTracker"
 
